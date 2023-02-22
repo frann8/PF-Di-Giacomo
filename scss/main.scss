@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -120,44 +121,12 @@ h1{
 
 /*pagina de contacto*/
 
-.input{
-    width: 100%;
-    padding: 10px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    font-size: 15px;
-}
-
-.formulario{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 100%;
-    padding: 3%;
-    position: relative;
-    display: inline-block
-}
+@import "formulario";
 
 /*footer*/
 
-footer{
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
+@import "footer";
 
-.piedepagina{
-    background-color:  rgb(234, 240, 247);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 70px;
-    list-style: none;
-    height: 100px;
-}
-
-.text_footer{
-    color: rgb(0, 0, 0);
-    margin: 3%;
-}
 
 @media only screen and (min-width: 768px) {
     * {
@@ -289,42 +258,9 @@ h1{
 
 /*pagina de contacto*/
 
-.input{
-    width: 100%;
-    padding: 10px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    font-size: 15px;
-}
-
-.formulario{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 19px;
-    padding: 3%;
-    position: relative;
-    display: inline-block
-}
+@import "formulario";
 
 /*footer*/
 
-footer{
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-.piedepagina{
-    background-color:  rgb(234, 240, 247);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 70px;
-    list-style: none;
-    height: 100px;
-}
-
-.text_footer{
-    color: rgb(0, 0, 0);
-    margin: 120px;
-}
+@import "footer";
 }

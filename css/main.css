@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+/*contenido index mobile*/
+.contenedor {
+  position: relative;
+  display: inline-block; }
+
+.text_image {
+  display: none;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 42px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  margin-top: 70px; }
+
+.titulo_sec {
+  text-align: center;
+  font-size: 180%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: inherit; }
+
+.boton {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 100%;
+  text-transform: uppercase;
+  margin-left: 38%;
+  margin-right: 38%;
+  margin-bottom: 40px;
+  color: black;
+  border: solid; }
+
+.img_fondo {
+  width: 100%;
+  height: 100%; }
+
+h1 {
+  margin: 15px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: capitalize; }
+
+/*pagina vehiculos mobile*/
+/*imagenes de los autos*/
+.img1 {
+  margin: 7%;
+  width: 85% !important;
+  height: 85% !important; }
+
+.img2 {
+  margin: 7%;
+  width: 85% !important;
+  height: 85% !important; }
+
+.img3 {
+  margin: 7%;
+  width: 85% !important;
+  height: 85% !important; }
+
+.img4 {
+  margin: 7%;
+  width: 85% !important;
+  height: 85% !important; }
+
+/*pagina historia*/
+.img_historia {
+  height: 100%;
+  width: 100%; }
+
+.text_historia {
+  font-size: 98%;
+  text-align: center;
+  margin: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.titulo_secundario_historia {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+/*pagina avances*/
+.titulo_primario {
+  color: #20c6cc; }
+
+.text_avances {
+  color: #065457;
+  font-size: 98%;
+  text-align: center;
+  margin: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.titulo_secundario_avances {
+  color: #20c6cc;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+/*pagina de contacto*/
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 15px; }
+
+.formulario {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 19px;
+  padding: 3%;
+  position: relative;
+  display: inline-block; }
+
+/*footer*/
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%; }
+
+.piedepagina {
+  background-color: #eaf0f7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  list-style: none;
+  height: 100px; }
+
+.text_footer {
+  color: black;
+  margin: 3%; }
+
+@media only screen and (min-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0; }
+  /*contenido index*/
+  .contenedor {
+    position: relative;
+    display: inline-block; }
+  .text_image {
+    display: grid;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 42px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin-top: 70px; }
+  .titulo_sec {
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: inherit; }
+  .boton {
+    transition: 2s;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 38%;
+    margin-right: 38%;
+    margin-bottom: 40px;
+    color: black;
+    border: solid; }
+  .img_fondo {
+    width: 100%;
+    height: 100%; }
+  h1 {
+    margin: 15px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize; }
+  /*pagina vehiculos*/
+  /*imagenes de los autos*/
+  .img1 {
+    margin: 9%;
+    margin-top: 1%;
+    width: 80% !important;
+    height: 85% !important; }
+  .img2 {
+    margin: 9%;
+    margin-top: 1%;
+    width: 80% !important;
+    height: 80% !important; }
+  .img3 {
+    margin: 9%;
+    margin-top: 1%;
+    width: 80% !important;
+    height: 80% !important; }
+  .img4 {
+    margin: 9%;
+    margin-top: 1%;
+    width: 80% !important;
+    height: 80% !important; }
+  /*pagina historia*/
+  .img_historia {
+    height: 100%;
+    width: 100%; }
+  .text_historia {
+    font-size: 20px;
+    text-align: center;
+    margin: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
+  .titulo_secundario_historia {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
+  /*pagina avances*/
+  .titulo_primario {
+    color: #20c6cc; }
+  .text_avances {
+    color: #065457;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
+  .titulo_secundario_avances {
+    color: #20c6cc;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
+  /*pagina de contacto*/
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 15px; }
+  .formulario {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;
+    padding: 3%;
+    position: relative;
+    display: inline-block; }
+  /*footer*/
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%; }
+  .piedepagina {
+    background-color: #eaf0f7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    list-style: none;
+    height: 100px; }
+  .text_footer {
+    color: black;
+    margin: 3%; } }
