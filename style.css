@@ -159,7 +159,7 @@ footer{
     margin: 3%;
 }
 
-@media only screen and (min-width: 876px) {
+@media only screen and (min-width: 768px) {
     * {
         margin: 0;
         padding: 0;
