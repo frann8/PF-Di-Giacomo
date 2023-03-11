@@ -1,3 +1,71 @@
+/*pagina de contacto desktop*/
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 15px; }
+
+.formulario {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 19px;
+  padding: 3%;
+  position: relative;
+  display: inline-block; }
+
+/*footer desktop*/
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%; }
+
+.piedepagina {
+  background-color: #eaf0f7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  list-style: none;
+  height: 100px; }
+
+.text_footer {
+  color: black;
+  margin: 3%; }
+
+/*pagina de contacto mobile*/
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 15px; }
+
+.formulario {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 19px;
+  padding: 3%;
+  position: relative;
+  display: inline-block; }
+
+/*footer mobile*/
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%; }
+
+.piedepagina {
+  background-color: #eaf0f7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  list-style: none;
+  height: 100px; }
+
+.text_footer {
+  color: black;
+  margin: 3%; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -79,6 +147,7 @@ h1 {
   font-family: Georgia, 'Times New Roman', Times, serif; }
 
 .titulo_secundario_historia {
+  margin-top: 2%;
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif; }
 
@@ -97,40 +166,6 @@ h1 {
   color: #20c6cc;
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif; }
-
-/*pagina de contacto*/
-.input {
-  width: 100%;
-  padding: 10px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  font-size: 15px; }
-
-.formulario {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 19px;
-  padding: 3%;
-  position: relative;
-  display: inline-block; }
-
-/*footer*/
-footer {
-  position: relative;
-  bottom: 0;
-  width: 100%; }
-
-.piedepagina {
-  background-color: #eaf0f7;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 70px;
-  list-style: none;
-  height: 100px; }
-
-.text_footer {
-  color: black;
-  margin: 3%; }
 
 @media only screen and (min-width: 768px) {
   * {
@@ -220,33 +255,4 @@ footer {
   .titulo_secundario_avances {
     color: #20c6cc;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif; }
-  /*pagina de contacto*/
-  .input {
-    width: 100%;
-    padding: 10px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    font-size: 15px; }
-  .formulario {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 19px;
-    padding: 3%;
-    position: relative;
-    display: inline-block; }
-  /*footer*/
-  footer {
-    position: relative;
-    bottom: 0;
-    width: 100%; }
-  .piedepagina {
-    background-color: #eaf0f7;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 70px;
-    list-style: none;
-    height: 100px; }
-  .text_footer {
-    color: black;
-    margin: 3%; } }
+    font-family: Georgia, 'Times New Roman', Times, serif; } }

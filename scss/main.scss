@@ -1,3 +1,20 @@
+/*pagina de contacto desktop*/
+
+@import "formulario";
+
+/*footer desktop*/
+
+@import "footer";
+
+/*pagina de contacto mobile*/
+
+@import "formulario";
+
+/*footer mobile*/
+
+@import "footer";
+
+
 
 *{
     margin: 0;
@@ -95,6 +112,7 @@ h1{
 }
 
 .titulo_secundario_historia{
+    margin-top: 2%;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -118,15 +136,6 @@ h1{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-/*pagina de contacto*/
-
-@import "formulario";
-
-/*footer*/
-
-@import "footer";
-
 
 @media only screen and (min-width: 768px) {
     * {
@@ -255,12 +264,4 @@ h1{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-/*pagina de contacto*/
-
-@import "formulario";
-
-/*footer*/
-
-@import "footer";
 }
